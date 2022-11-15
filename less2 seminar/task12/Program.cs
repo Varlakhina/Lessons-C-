@@ -6,22 +6,13 @@
 // 16, 4 -> кратно
 
 
-int Multiplicity(int num1, int num2)
-{
-    int res = num1 % num2;
-    return res;
-}
 Console.WriteLine("введите первое число");
 int numberA = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("введите второе число");
+
+Console.WriteLine("введите dnjhjt число");
 int numberB = Convert.ToInt32(Console.ReadLine());
 
-int result = Multiplicity(numberA, numberB);
-
-if (result ==0) 
+int Mult(int num1, int num2)
 {
-    Console.WriteLine("кратно");
-}
-else Console.WriteLine($"не кратно, остаток {result}");
 
-Console.WriteLine(result);
+}
