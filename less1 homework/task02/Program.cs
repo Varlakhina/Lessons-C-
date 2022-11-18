@@ -11,11 +11,11 @@ int number2 = Convert.ToInt32(Console.ReadLine());
 
 if (number1 != number2)
 {
-if (number1 > number2) Console.WriteLine($"число {number1} больше числа {number2}");
-else
-{
-    Console.WriteLine($"число {number2} больше числа {number1}");
-}
+    if (number1 > number2) Console.WriteLine($"число {number1} больше числа {number2}");
+    else
+    {
+        Console.WriteLine($"число {number2} больше числа {number1}");
+    }
 }
 else
 {
