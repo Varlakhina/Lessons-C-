@@ -10,3 +10,9 @@ Console.WriteLine("введите второе целое число");
 int number2 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("введите третье целое число");
 int number3 = Convert.ToInt32(Console.ReadLine());
+
+int max = number1;
+
+number2 > max
+max = number2 
+number3 > max
